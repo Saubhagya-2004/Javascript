@@ -9,3 +9,7 @@ follower.unshift('a');//add item at the beginning
 console.log(follower);
 follower.shift();//delete element at the beginning
 console.log(follower);
+let primary=['green','Red','Blue'];
+console.log(primary.indexOf('Red'));
+console.log(primary.includes('green'));//search that value if exist return true otherwise false
+
