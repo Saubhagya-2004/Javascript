@@ -1,6 +1,6 @@
 let car=['Audi','Bmw', 'Ferrari','Benz']
 console.log(car);
-car.push('Toyota');//Add at the beginning
+car.push('Toyota');//Add at the end
 console.log(car);
 car.pop();//Delete last element from the list
 console.log(car);
