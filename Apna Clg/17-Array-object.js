@@ -8,4 +8,4 @@ const classinfo=[
         city:'BBSR'
     },
 ];
-console.log(classinfo[1].city);
+console.log(classinfo[1`q`].city);
