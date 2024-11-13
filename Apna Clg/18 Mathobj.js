@@ -7,3 +7,4 @@ console.log(Math.ceil(8.8));
 // Give greater or equal
 console.log(Math.pow(2,4));
 // Return power
+
