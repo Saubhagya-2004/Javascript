@@ -21,3 +21,17 @@ console.log(post[prop]);
 // console.log(post.prop);
 // it comes undefined not work
 console.log(post.tags[0]);
+// symbol////
+const mysym=Symbol('Key1');
+const person={
+    Name:'chiku',
+    Roll:'32',
+    [mysym]:'value'
+};
+// console.log(person[mysym]);
+console.log(typeof mysym);
+// write keys and key value
+console.log(Object.keys(post));
+console.log(Object.values(post));
+
+
