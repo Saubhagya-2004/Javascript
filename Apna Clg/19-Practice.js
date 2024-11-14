@@ -26,3 +26,22 @@ function Number(a){
 
 }
 Number(2);
+// return sum of the number 1 to n
+function num(n){
+    let sum=0;
+    for(let i=1;i<=n;i++){
+        sum+=i;
+        }
+        return sum;
+}
+console.log(num(10));
+// Concat all the string in an array
+let str=['hi','hlw','Bye','hi'];
+function get(str){
+    let result='';
+    for(let i=0;i<str.length;i++){
+        result+=str[i];
+    }
+    return result;
+}
+console.log(get(str));
