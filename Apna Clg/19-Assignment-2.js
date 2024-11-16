@@ -24,3 +24,40 @@ return ans;
 
 }
 console.log(element(str));
+// 03
+let country=['Australia','Germany','United states of america'];
+function longest(country){
+    let ansidx=0;
+    for(let i=0;i<country.length;i++){
+        let anslen=country[ansidx].length; // Length of the current longest name
+        let curcuntery=country[i].length;// Length of the current country name
+        if(curcuntery>anslen){
+            ansidx=i;
+        }
+    }
+    return country[ansidx];
+
+}
+console.log(longest(country));
+// 04///////
+let stri='apnacollege';
+function find(stri){
+    let count=0;
+    for(let i=0;i<stri.length;i++){
+        if(stri.charAt(i)==='a'|| stri.charAt(i)==='e'||stri.charAt(i)==='i'||stri.charAt(i)==='o'||stri.charAt(i)==='u'){
+            count++;
+        }
+    }
+    return count;
+}
+console.log(find(stri));
+// 05////////////
+let start=100;
+let end=200;
+function found(start,end){
+    let diff=end-start;
+    let ans=Math.floor(Math.random()*diff)+start;
+    return ans;
+    
+}
+console.log(found(start,end));
