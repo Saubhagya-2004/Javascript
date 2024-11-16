@@ -12,3 +12,8 @@ console.log(m*i);
 }
 }
 pow(9);
+// implicity return//////
+const sub=(a,b)=>(a-b);
+// in implicity return we use bracket in place of curly brace
+console.log(sub(9,3));
+
