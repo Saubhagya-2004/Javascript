@@ -61,3 +61,33 @@ function found(start,end){
     
 }
 console.log(found(start,end));
+// practice these question
+// let strin='abdcgggggggggggggshjiiihu';
+// function findname(strin){
+//     let ans='';
+//     for(let i=0;i<strin.length;i++){
+//         let char=strin[i];
+//         if(ans.indexOf(char)==-1){
+//             ans+=char;
+//          }
+
+//     }
+//     return ans;
+// }
+// console.log(findname(strin));
+// let name=['America','India','United states off arab'];
+// function findlarge(name){
+// let indx=0;
+// for(let i=0;i<name.length;i++){
+//     let ansl=name[indx].length;
+//     let curntry=name[i].length;
+//     if(curntry>ansl){
+//         indx=i;
+//         }
+// }
+// return name[indx];
+
+// }
+// console.log(findlarge(name));
+
+
