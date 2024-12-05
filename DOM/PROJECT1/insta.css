@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+head,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: 350px;
+    width: 250px;
+    background-color: aliceblue;
+    margin-top: 12%;
+    position: relative;
+}
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:top;
+}
+.fa-comment {
+    color: aliceblue;
+    margin: 10px;
+    margin-right: 15px;
+    
+}
+.fa-location-arrow{
+    color: aliceblue;
+    margin: 10px;
+    margin-right: 15px;
+}
+#unheart{
+    color: aliceblue;
+    margin: 10px;
+    margin-right: 15px;
+    
+}
+ #heart{
+    color: #fff;
+font-size: 60px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%) scale(0);
+opacity: 0.8;
+transition: transform ease 0.5s;
+
+}
