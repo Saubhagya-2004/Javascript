@@ -25,7 +25,7 @@ html, body {
     align-items: center;
     justify-content: flex-start;
     mix-blend-mode: difference;
-    position: relative; /* Ensure relative positioning for absolute children */
+    position: relative; 
 }
 
 .elem h1 {
@@ -40,5 +40,5 @@ html, body {
     transition: all linear 0.4s;
     opacity: 0;
     position: absolute; /* Needed for dynamic positioning */
-    pointer-events: none; /* Prevent mouse events on the image itself */
+    /* pointer-events: none; Prevent mouse events on the image itself */
 }
