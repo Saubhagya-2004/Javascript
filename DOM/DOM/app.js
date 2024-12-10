@@ -22,7 +22,17 @@ newp.innerText='Hi i am new p';
 let body=document.querySelector('body');
 body.appendChild(newp);
 let box1=document.querySelector('.box');
+//giving style
+box1.style.backgroundColor='pink';
+box1.style.border='2px solid aqua';
 box1.appendChild(newp);
 let btn =document.createElement('button');
 btn.innerText='click me';
 box1.appendChild(btn);
+let select=document.querySelector('#description');
+// select.prepend(newp);
+  //insert adjecent
+select.insertAdjacentElement('afterbegin',btn)
+select.insertAdjacentElement('afterend',btn)
+// select.insertAdjacentElement('afterbegin',btn)
+// select.insertAdjacentElement('afterbegin',btn)
