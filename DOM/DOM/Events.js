@@ -39,3 +39,15 @@ p.addEventListener('click',function(){
         flag--;
     }
 })
+let form1=document.querySelector('form');
+form1.addEventListener('submit',function(event){
+    event.preventDefault();//use to not redirect to another page no action taken
+    // let input=document.querySelector('input');
+    // console.log(input.value);
+    let user=document.querySelector('#user');
+    let password=this.elements[1];//form1.elements[1] this means acess form1
+    console.log(user.value);
+    console.log(password.value);
+});
+
+form1.elements[2].style.backgroundColor='greenyellow';
