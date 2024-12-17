@@ -78,6 +78,8 @@ async function consumed() {
     // if await keyword use without try cath it runs if error not occurs whenever it occurs await keyword give error
     try{
         const response=await promise4
+        //await keyword basically used to waiting for promise to resolved(completed)
+        //in js engine is not waiting settimeout fxn
     console.log(response);
     }
     catch(error){
