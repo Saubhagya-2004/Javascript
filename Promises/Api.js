@@ -9,4 +9,13 @@ console.log(json);
 let student={name:'saubhagya',age:'23',Qualification:'Btech cse'};
 console.log(JSON.stringify(student));
 //convert it into valid json data
+let user='https://catfact.ninja/fact';
+fetch(user)
+.then((res)=>{
+console.log(res.json());
 
+})
+.catch((err)=>{
+    console.log('error',err);
+    
+})
