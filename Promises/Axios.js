@@ -6,7 +6,7 @@ btn.addEventListener('click',async()=>{
         //await keyword used here whenever getdata fxn not resolved
         console.log(fact);
         let h=document.querySelector('h1');
-        h.innerText=fact;
+        h.innerText=fact;aaaaaaaasssfff1234444
         
     }
 )
